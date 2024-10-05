@@ -6,7 +6,7 @@ import streamlit as st
 sns.set(style='dark')
 
 # Load dataset
-day_data = pd.read_csv("day.csv")
+day_data = pd.read_csv("dashboard/day.csv")
 
 # Convert dteday from object to datetime
 day_data['dteday'] = pd.to_datetime(day_data['dteday'])
